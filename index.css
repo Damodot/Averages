@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+main{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    border-radius: 2.7em;
+    z-index: 1;
+}
+.output{
+    height: 21.5dvh;
+    width: 25dvw;
+    z-index: 10;
+    border-radius: 2em;
+}
+.grey,
+.numbs{
+    background-color: grey;
+    border-radius: 50%;
+    width: 22%;
+    aspect-ratio: 1 / 1;
+}
+.range{
+    background-color: rgb(255, 94, 0);
+}
+.grey h1{
+    color: black;
+}
+.range h5,
+.numbs h1{  
+    color: white;
+}
+.line1{
+    margin-top: 0.5em;
+}
+.grey:hover{    
+    background-color: rgb(197, 197, 197);
+}
+.range:hover{
+    background-color: rgb(255, 130, 58);
+}
+.numbs{
+    background-color: rgb(28, 28, 28);
+}
+.numbs:hover{
+    background-color: rgb(68, 67, 67);
+}
+.long{
+    width: 47%;
+    aspect-ratio: 1 / 0.5;
+    border-radius: 2.5em;
+}
+.topInput{
+    height: 50%;
+    border-radius: 2em 2em 0 0;
+    overflow: hidden;
+}
+.topInput div{
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: last baseline;
+}
+.signs{
+    width: 15%;
+    height: 100%;
+}
+.downInput{
+    height: 50%;
+    border-radius: 0 0 2em 2em;
+    display: flex;
+    justify-content: right;
+    align-items: last baseline;
+}
+.inpTwo{
+    width: 100%;
+}
+.inpOne input,
+.inpTwo input,
+.downInput input{
+    border: none;
+    outline: none;
+    font-size: 2em;
+    color: white;
+    background-color: transparent;
+}
+#operators{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1em;
+}
+.span{
+    width: 70%;
+    aspect-ratio: 1 / 0.3;
+    border-radius: 2.5em;
+}

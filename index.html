@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="index.css">
+    <title>Exercise</title>
+</head>
+<body>
+    <main class="shadow p-4 m-auto">
+        <div class="output">
+            <div class="topInput d-flex justify-content-between">
+                <div class="inpTwo">
+                    <input type="text" class="w-100 h-75" placeholder="0" id="value2" onfocus="focusedInput = 'value2'">   
+                </div>
+            </div>
+            <div class="downInput w-100">
+                <input type="text" class="w-100 h-75" placeholder="0" id="value3">
+            </div>
+        </div>
+        <div class="buttons mt-4">
+            <div class="line1 d-flex w-100 align-items-center justify-content-between">
+                <button class="btn grey d-flex align-items-center justify-content-center" onclick="clearFunction()"><h1>C</h1></button>
+                <button class="btn grey d-flex align-items-center justify-content-center" onclick="min()"><h5>min</h5></button>
+                <button class="btn grey d-flex align-items-center justify-content-center" onclick="max()"><h5>max</h5></button>
+                <button class="btn grey range d-flex align-items-center justify-content-center" onclick="mean()"><h5>avg</h5></button>
+            </div>
+            <div class="line1 d-flex w-100 align-items-center justify-content-between">
+                <button class="btn numbs" onclick="numbOne()"><h1>1</h1></button>
+                <button class="btn numbs" onclick="numbTwo()"><h1>2</h1></button>
+                <button class="btn numbs" onclick="numbThree()"><h1>3</h1></button>
+                <button class="btn grey range align-items-center justify-content-center" onclick="median()"><h5>med</h5></button>
+            </div>
+            <div class="line1 d-flex w-100 align-items-center justify-content-between">
+                <button class="btn numbs" onclick="numbFour()"><h1>4</h1></button>
+                <button class="btn numbs" onclick="numbFive()"><h1>5</h1></button>
+                <button class="btn numbs" onclick="numbSix()"><h1>6</h1></button>
+                <button class="btn grey range align-items-center justify-content-center" onclick="range()"><h5>rng</h5></button>
+            </div>
+            <div class="line1 d-flex w-100 align-items-center justify-content-between">
+                <button class="btn numbs" onclick="numbSeven()"><h1>7</h1></button>
+                <button class="btn numbs" onclick="numbEight()"><h1>8</h1></button>
+                <button class="btn numbs" onclick="numbNine()"><h1>9</h1></button>
+                <button class="btn grey range align-items-center justify-content-center" onclick="sort()"><h5>sort</h5></button>
+            </div>
+            <div class="line1 d-flex w-100 align-items-center justify-content-between">
+                <button class="btn numbs span" onclick="numbZero()"><h1>0</h1></button>
+                <button class="btn numbs" onclick="numbDot()"><h1>.</h1></button>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
